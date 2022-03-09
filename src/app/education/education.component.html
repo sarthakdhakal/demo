@@ -1,0 +1,93 @@
+<section id="cv">
+  <div class="container">
+    <h2><strong>Works Carried out</strong></h2>
+    <span class="bar-title mb-5"></span>
+    <div class="row">
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <h4><strong>Branches</strong></h4>
+
+        <ul class="timeline">
+          <li>
+            <h5><strong>Lorem ipsum</strong></h5>
+            <em class="font-italic"
+              >Lorem ipsum dolor sit amet<br />
+              Lorem ipsum dolor sit amet</em
+            >
+          </li>
+          <li>
+            <h5>Lorem ipsum</h5>
+            <em class="font-italic"
+              >Lorem ipsum dolor sit amet <br />
+              Lorem ipsum dolor sit amet</em
+            >
+          </li>
+          <li>
+            <h5>Lorem ipsum dolor sit amet</h5>
+            <em class="font-italic"
+              >Lorem ipsum dolor sit amet <br />
+              Lorem ipsum dolor sit amet</em
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <h4><strong>Works</strong></h4>
+        <ul class="timeline">
+          <li>
+            <h5>Lorem ipsum</h5>
+            <em>Lorem ipsum dolor sit ame</em>
+            <div class="d-flex flex-row">
+              <p class="year p-2 d-flex justify-content-center">
+                Lorem ipsum dolor si
+              </p>
+              <button
+                (click)="detailOnClick('freelanceScotfy_detail')"
+                type="button"
+                class="btn btn-primary"
+              >
+                More
+                <fa-icon [icon]="plusIcon"></fa-icon>
+              </button>
+            </div>
+            <p *ngIf="freelanceScotfyIsShown">
+              <strong>Lorem:</strong>Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod tempor. <br />
+              <strong>Lorem:</strong>Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod tempor. <br />
+              <strong>Lorem:</strong>Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod tempor. <br />
+              <strong>Lorem:</strong>Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod tempor. <br />
+            </p>
+          </li>
+
+          <li>
+            <h5>Lorem ipsum</h5>
+            <em>Lorem ipsum dolor sit ame</em>
+            <div class="d-flex flex-row">
+              <p class="year p-2 d-flex justify-content-center">Lorem ipsum</p>
+              <button
+                (click)="detailOnClick('freelance_detail')"
+                type="button"
+                class="btn btn-primary"
+              >
+                More
+                <fa-icon [icon]="plusIcon"></fa-icon>
+              </button>
+            </div>
+            <p *ngIf="freelanceIsShown">
+              <strong>Lorem:</strong>Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod tempor. <br />
+              <strong>Lorem:</strong>Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod tempor. <br />
+              <strong>Lorem:</strong>Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod tempor. <br />
+              <strong>Lorem:</strong>Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod tempor. <br />
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
